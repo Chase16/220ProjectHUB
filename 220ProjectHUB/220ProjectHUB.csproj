@@ -79,6 +79,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\T2ClassLib\T2ClassLib.csproj">
+      <Project>{1646ef0d-572c-41f4-9f76-aeb550e09af5}</Project>
+      <Name>T2ClassLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
