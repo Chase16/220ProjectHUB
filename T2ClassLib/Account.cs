@@ -26,7 +26,7 @@ namespace T2ClassLib
         }
 
      
-        //Encapsulation
+        //Properties
 
         public int  AcctID
         {
